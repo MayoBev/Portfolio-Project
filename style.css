@@ -1,0 +1,150 @@
+body {
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+img {
+    width: 100%;
+}
+
+.hero-image { 
+    background-image: url(./Backgroundpic.jpg);
+    background-size: 900px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white; 
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 0px; 
+}
+
+#first--h2 {
+    font-size: 1.6rem; 
+    text-align: center;
+    color: white;
+    padding: 0px;
+    border: 0px;
+}
+
+a:link { 
+    text-decoration: none;
+}
+#button1 {
+    width: 200px;
+    margin-left: 22em;
+    margin-bottom: 50px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutme {
+    background-color: black;
+}
+
+#h2aboutme {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+}
+
+#paboutme {
+    text-align: center;
+    position: relative; 
+    width: 400px;
+    margin-left: 16em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding: 3em;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em; 
+    text-align: center;
+}
+
+.portfolio {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.cards {
+    border: 0.01em solid #000; 
+    width: 30%; 
+}
+
+.photos {
+    height: 11em; 
+}
+
+p {
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.form {
+    font-size: 1em; 
+    text-align: center;
+    border: 1em solid; 
+}
+
+.questions {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    border: solid #000;
+    width: 20em; 
+}
+
+textarea {
+    border: solid #000;
+    width: 20em; 
+}
+
+
+@media screen and (max-width: 800px) { 
+    body {
+        margin: 0 auto; 
+    }
+
+    #button1 {
+        width: 200px; 
+        margin-left: 9em; 
+    }
+
+    #paboutme {
+        width: 300px; 
+        margin-left: 6em; 
+    }
+
+    .portfolio {
+        display: inline-flex; 
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 9em;
+        width: 60em;
+    }
+
+    .cards {
+        margin-bottom: 2em; 
+    }
+}
+
+@media screen (min-width: 1025px) and (max-width: 1280px) {
+    /* Tablets and iPad */ 
+}
